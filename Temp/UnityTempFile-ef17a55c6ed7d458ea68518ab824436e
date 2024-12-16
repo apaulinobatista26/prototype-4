@@ -1,14 +1,15 @@
 /target:library
-/out:"Temp/Assembly-CSharp.dll"
+/out:"Temp/UnityEngine.UI.dll"
 /nowarn:0169
 /nowarn:0649
-/refout:"Temp/Assembly-CSharp.dll.ref"
+/refout:"Temp/UnityEngine.UI.dll.ref"
 /deterministic
 /debug:portable
 /optimize+
 /nostdlib+
 /preferreduilang:en-US
 /langversion:8.0
+/reference:"/Applications/2020.3.27f1/Unity.app/Contents/Managed/UnityEditor.Graphs.dll"
 /reference:"/Applications/2020.3.27f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 /reference:"/Applications/2020.3.27f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
 /reference:"/Applications/2020.3.27f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll"
@@ -198,17 +199,12 @@
 /reference:"/Applications/2020.3.27f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
 /reference:"/Applications/2020.3.27f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
 /reference:"/Applications/2020.3.27f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll"
+/reference:"/Applications/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
+/reference:"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+/reference:"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+/reference:"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+/reference:"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/unityplastic.dll"
 /reference:"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
-/reference:"Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.Rider.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.TextMeshPro.dll"
-/reference:"Library/ScriptAssemblies/Unity.Timeline.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.Timeline.dll"
-/reference:"Library/ScriptAssemblies/Unity.VSCode.Editor.dll"
-/reference:"Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll"
-/reference:"Library/ScriptAssemblies/UnityEditor.UI.dll"
-/reference:"Library/ScriptAssemblies/UnityEngine.UI.dll"
 /define:CSHARP_7_3_OR_NEWER
 /define:CSHARP_7_OR_LATER
 /define:DEBUG
@@ -275,6 +271,10 @@
 /define:ENABLE_WWW
 /define:INCLUDE_DYNAMIC_GI
 /define:NET_STANDARD_2_0
+/define:PACKAGE_ANIMATION
+/define:PACKAGE_PHYSICS
+/define:PACKAGE_PHYSICS2D
+/define:PACKAGE_TILEMAP
 /define:PLATFORM_ARCH_64
 /define:PLATFORM_STANDALONE
 /define:PLATFORM_STANDALONE_OSX
@@ -315,5 +315,88 @@
 /define:UNITY_STANDALONE_OSX
 /define:UNITY_TEAM_LICENSE
 /define:USE_SEARCH_ENGINE_API
-"Assets/Scripts/PlayerController.cs"
-"Assets/Scripts/RotateCamera.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/AxisEventData.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/BaseEventData.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventData/PointerEventData.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventHandle.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventInterfaces.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTriggerType.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/ExecuteEvents.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/BaseInput.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/BaseInputModule.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/PointerInputModule.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/StandaloneInputModule.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/InputModules/TouchInputModule.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/MoveDirection.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/RaycastResult.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/RaycasterManager.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/Raycasters/BaseRaycaster.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/Raycasters/Physics2DRaycaster.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/Raycasters/PhysicsRaycaster.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/UIBehaviour.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/Properties/AssemblyInfo.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Animation/CoroutineTween.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/AnimationTriggers.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/CanvasUpdateRegistry.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/ColorBlock.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Culling/ClipperRegistry.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Culling/Clipping.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Culling/IClipRegion.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Culling/RectangularVertexClipper.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/DefaultControls.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Dropdown.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/FontData.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/FontUpdateTracker.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Graphic.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/GraphicRaycaster.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/GraphicRebuildTracker.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/GraphicRegistry.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/IGraphicEnabledDisabled.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/IMask.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/IMaskable.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Image.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/InputField.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/AspectRatioFitter.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/CanvasScaler.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ContentSizeFitter.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/GridLayoutGroup.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalLayoutGroup.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/HorizontalOrVerticalLayoutGroup.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/ILayoutElement.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutElement.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutGroup.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutRebuilder.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/LayoutUtility.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Layout/VerticalLayoutGroup.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Mask.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskUtilities.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaskableGraphic.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MaterialModifiers/IMaterialModifier.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Misc.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MultipleDisplayUtilities.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Navigation.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/RawImage.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/RectMask2D.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/ScrollRect.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Scrollbar.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Selectable.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/SetPropertyUtility.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Slider.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/SpecializedCollections/IndexedSet.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/SpriteState.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/StencilMaterial.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Text.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Toggle.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/ToggleGroup.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Utility/ListPool.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Utility/ObjectPool.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Utility/ReflectionMethodsCache.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Utility/VertexHelper.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/VertexModifiers/BaseMeshEffect.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/VertexModifiers/IMeshModifier.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/VertexModifiers/Outline.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/VertexModifiers/PositionAsUV1.cs"
+"/Users/game34/Desktop/Create with Code/prototype 4/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/VertexModifiers/Shadow.cs"
