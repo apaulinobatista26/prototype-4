@@ -274,10 +274,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e85b101b4921f401fbb5b2551c9d1e15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 7408281794505531429, guid: ee1375f1cf3b74767b91bf53bbba986b, type: 3}
+  enemyPrefab:
+  - {fileID: 7408281794505531429, guid: ee1375f1cf3b74767b91bf53bbba986b, type: 3}
+  - {fileID: 7408281794505531429, guid: 47df45406300b4e59a7b449bffc75d23, type: 3}
   enemyCount: 0
   waveNumber: 1
-  powerupPrefab: {fileID: 772264006852929625, guid: 9fafbba5ab4cf419f96866748ad4d969, type: 3}
+  powerupPrefabs:
+  - {fileID: 772264006852929625, guid: 9fafbba5ab4cf419f96866748ad4d969, type: 3}
+  - {fileID: 772264006852929625, guid: 74bb108f5b256446d950bc6ddce6de91, type: 3}
 --- !u!4 &936542453
 Transform:
   m_ObjectHideFlags: 0
@@ -687,7 +691,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9b6c43160f5ba46fba26968a82fc0b1f, type: 2}
+  - {fileID: 2100000, guid: e6e6f7a3c9f4839409af1eae15839382, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -746,6 +750,8 @@ MonoBehaviour:
   speed: 5
   hasPowerup: 0
   powerupIndicator: {fileID: 1665183618}
+  currentPowerUp: 0
+  rocketPrefab: {fileID: 7465644318107990252, guid: 5e1c6d5972eed4e368777a66954cb389, type: 3}
 --- !u!54 &2050045444
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -815,7 +821,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5831814716918331113, guid: 363a8f737719f4d2eafb35f885f3706f, type: 3}
       propertyPath: m_Name
-      value: SkyDome
+      value: Rocket
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 363a8f737719f4d2eafb35f885f3706f, type: 3}
